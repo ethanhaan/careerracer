@@ -1,0 +1,88 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Auth Component Styles */
+.auth-container .user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* GameLobby Component Styles */
+.game-lobby {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.join-create-section input {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.player-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 8px;
+  list-style-type: none;
+  border-bottom: 1px solid #eee;
+}
+
+.profile-pic-small {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.start-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-button:disabled {
+  background-color: #ccc;
+}
+
